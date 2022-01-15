@@ -1,8 +1,8 @@
 secret_number =777
 
+n=int(input("""
 
-print(
-"""
+
 +=========================================+
 |Welcome to my game, muggle!              |                                                                  
 |Enter an integer number                  |          
@@ -11,8 +11,8 @@ print(
 |So,what is the secret number ?           |                               
 |                                         |
 +=========================================+
-""")
-n=int(input("Enter an integer number: "))
+"""))
+
 if n != secret_number: # If statement to check the number is right
     print("you are stuck in loop!")
 
